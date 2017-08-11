@@ -4,8 +4,8 @@
 
 <ul>
   {{#each model as |question|}}
-    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+    {{question-tile question=question}}
   {{/each}}
-
-  {{new-question saveQuestion2="saveQuestion3"}}
 </ul>
+
+{{new-question saveQuestion2="saveQuestion3"}}
