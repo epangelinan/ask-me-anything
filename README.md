@@ -1,7 +1,39 @@
 # ask-me-anything
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a web app question and answer message board, where users can submit a question, then other users can respond with answers.
+
+## Planning
+
+1. Configuration/dependencies
+  * The dependencies are listed under Prerequisites section below.  Node and Ember are used to to minimize the the amount of configuration necessary to get an application up and running by using the "convention over configuration" design.  Using Ember, a number of peripheral tasks to application development have been streamlined, such as testing, compiling, and serving files.
+
+2. Specs
+  * Spec 1: Questions should include the content of the question itself, an author, and additional notes.
+  * Spec 2: Answers should include the content of the answer and the author.
+  * Spec 3: Include a header and/or navbar that appears on all pages. It should contain the name of your site and a link to the home page, and other content such as social media, LinkedIn, etc.
+  * Spec 4: List all questions on the homepage, displaying only the question and the name of the author.
+  * Spec 5: Allow users to click a question, to be routed to another page containing additional information and question details.
+  * Spec 6: Allow users to add and edit questions.
+  * Spec 7: Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Template/html page for ...
+  * Template/html page for ...
+  * Template/html page for ... (one for each route/integrated user story)
+  * Display...
+  * Integrate feature that...
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome
 
 ## Prerequisites
 
