@@ -32,8 +32,8 @@ This is a web app question and answer message board, where users can submit a qu
   * Add CSS styling
 
 5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
+  * Refactor code by moving update/delete functions from the index to the module
+  * Delete code that is no longer needed in the UI
   * Make README awesome
 
 ## Prerequisites
