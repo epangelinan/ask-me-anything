@@ -3,7 +3,7 @@
 <p>We hope you will share your questions with the community, as well as share your knowledge and unique perspectives!</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </ul>
